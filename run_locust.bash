@@ -1,0 +1,1 @@
+locust -f performance/SessionUser.py -H http://localhost:8082 -u 10 -r 1
