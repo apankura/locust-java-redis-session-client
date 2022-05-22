@@ -1,1 +1,1 @@
-locust -f performance/SessionUser.py --master -H http://localhost:8082 -u 10 -r 1
+locust -f performance/SessionUser.py --master -H http://192.168.1.15:8082 -u 10 -r 1
