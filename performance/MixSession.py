@@ -8,7 +8,7 @@ class ExplorerUser(HttpUser):
     def big_request(self):
         self.client.cookies.clear()
         cookies = {}
-        for i in range(1, 10000):
+        for i in range(1, 1000):
             res = self.client.get("/counters", cookies=cookies, allow_redirects=False)        
             res.raise_for_status()        
             cookies = res.cookies.get_dict()                

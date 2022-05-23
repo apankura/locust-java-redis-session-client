@@ -1,1 +1,1 @@
-locust -f performance/LightSession.py --master -H http://192.168.1.15:8082 -u 10 -r 1
+locust -f performance/MixSession.py --master -H http://192.168.1.15:8082 -u 10 -r 1
